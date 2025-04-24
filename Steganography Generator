@@ -4,8 +4,9 @@ from PIL import Image
 import os
 
 print('Steganography Generator - Hide & Reveal Messages')
+print('Version v1.1.0')
 print('Created by Joseph Morrison')
-print('Licensed Under 
+print('Licensed Under CC BY-NC-ND 4.0 License')
 
 def encode_message():
     input_image_path = filedialog.askopenfilename(filetypes=[("PNG Images", "*.png")])
